@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yurimovieapp/screens/homeScreen.dart';
 
 void main() {
   runApp(const YurisMovieApp());
@@ -9,6 +10,8 @@ class YurisMovieApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home:HomeScreen(),
+    );
   }
 }
